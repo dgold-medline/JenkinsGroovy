@@ -1,7 +1,7 @@
 import java.io.*;
 import groovy.io.*;
 
-@NonCps
+@NonCPS
 def call(Map onfig=[:]) 
 {
    def dir = new File(pwd());
